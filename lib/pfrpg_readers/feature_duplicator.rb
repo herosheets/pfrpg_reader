@@ -1,4 +1,4 @@
-module FeatureDuplicator
+module PfrpgReaders::FeatureDuplicator
 
   def dupe_words
     ['Sneak Attack', 'Channel Energy', 'Damage Reduction', 'Trap Sense']

@@ -1,6 +1,6 @@
 module PfrpgReaders
   class MiscReader
-    include FeatureDuplicator
+    include PfrpgReaders::FeatureDuplicator
     attr_reader :initiative, :speed, :hit_points, :feats, :class_features, :levels,
                 :total_level, :alignment, :languages, :size
     def initialize(character)
